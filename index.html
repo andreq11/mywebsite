@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Mywebsite</title>
         <link rel="icon" href="logo.jpeg" type="image/x-icon"/>
     </head>
     <body>
         <header>
-            <img src="logo.jpeg" alt="logo site" width="75" height="75" />
-                <a href ="/Home/">HOME</a>
-                <a href ="/Home/">HOME</a>
-                <a href ="/Home/">HOME</a>
+        <nav>
+            <a href ="#home">HOME</a>
+            <a href ="#aboutme">ABOUT ME</a>
+            <a href ="#hobby">HOBBY</a>
+            <a href ="#contact">CONTACT</a>
+            <a href="https://www.facebook.com/andrii.rura"><img src="FB.png" alt="facebook logo" width="35" height="35"></a>
+            <a href="https://https://vk.com/andrew.rura"><img src="VK.png" alt="vkontakte logo" width="35" height="35"></a>
+            <a href="https://plus.google.com/u/0/109158183834015826741"><img src="Google.png" alt="google logo" width="35" height="35"></a>
+        </nav>
         </header>
+            <section id="home">
+                <img src="myfoto.png" alt="my foto" width="200" height="250" />
+                <h1>Andrii Rura<h1>
+                    <b>Student of the SoftServe IT Academy</b><br>
+                    <b>HTML5 CSS3 JavaScript Fundamentals</b>
+            </section>
+            <section id="aboutme">
+                <h1>About me</h1>
+                <p>Hello , this is my first project , the first experience in web development,I hope you like it<br>I'm creating my projects using HTML5 , CSS3<br>I want to take part in different projects to gain the experience.</p><br>
+            </section>
+            <section id="hobby">
+                <h1>Hobby</h1>
+                <p>My hobby is sports, like cycling, I love to watch football, I love playing football, I love playing football on a computer<br>My favorite football team Tottenham Hotspur<br></p>
+                <img src="cycling.png" alt="cycling" width="200" height="250" />
+                <img src="playingfootball1.png" alt="playingfootball1.png" width="200" height="250" />
+                <img src="playingfootball2.png" alt="playingfootball1.png" width="200" height="250" />
+            </section>
+            <section id="contact">
+                 <h3>CONTACT ME</h3>
+                 <form action="https://formspree.io/rura.andrew@gmail.com" method="POST">
+                <ul class="form-style-1">
+                    <li><label>Name:</label><br>
+                        <input type="text" id="name" class="field-long" placeholder="name" required>
+                    </li>
+                    <li>
+                        <label>Email:</label><br>
+                        <input type="email" id="email" class="field-long" placeholder="example@domain.com" required>
+                    </li>
+                    <li>
+                        <label>Your Message:</label><br>
+                        <textarea name="massage" id="msg" class="field-long field-textarea" required></textarea>
+                    </li>
+                    <li>
+                        <button id="btn-send">Send</button>
+                    </li>
+                </ul>
+        </form>
+            </section>
+            <footer>
+                <p>© All rights reserved 2016</p>
+            </footer>
         
     </body>
 </html>

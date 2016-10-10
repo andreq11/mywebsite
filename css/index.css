@@ -4,8 +4,7 @@
 }
 
 body {
-    min-width: 1070px;
-    max-width: 100%;
+    
 }
 
 header {
@@ -35,24 +34,6 @@ nav li {
     margin-left: 25px;
     font-size: 24px;
 }
-
-#logo {
-    float: left;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 50px;
-    height: 50px;
-    color: black;
-    border: solid 10px black;
-    font-size: 30px;
-    vertical-align: middle;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 50px;
-    font-family: 'Baloo Bhai', cursive;
-}
-
 a {
     color: black;
     font-family: 'Baloo Bhai', cursive;
@@ -80,29 +61,25 @@ a {
 
 #aboutme {
     float: left;
-    height: 400px;
+    height: auto;
     width: 100%;
     font-family: 'Baloo Bhai', cursive;
     font-size: 150%;
     background-color: #ADD8E6;
 }
 
-#aboutme>img {
-    float: right;
+img {
     border-radius: 15px;
-    margin-top: 30px;
-    margin-right: 30%;
 }
 
-#hobby>img {
+myfoto {
     float: right;
     border-radius: 15px;
-    margin-top: 30px;
 }
 
 #hobby {
     float: left;
-    height: 500px;
+    height: auto;
     width: 100%;
     font-family: 'Baloo Bhai', cursive;
     font-size: 200%;
@@ -110,7 +87,7 @@ a {
 
 #contact {
     float: left;
-    height: 500px;
+    height: auto;
     width: 100%;
     font-family: 'Baloo Bhai', cursive;
     background-color: #ADD8E6;
@@ -141,10 +118,12 @@ a {
     height: 20px;
     width: 20%;
 }
-
+form {
+    margin-left: 3%;
+}
 footer {
     float: left;
-    height: 50px;
+    height: auto;
     width: 100%;
     font-family: 'Baloo Bhai', cursive;
     text-align: center;
@@ -152,6 +131,14 @@ footer {
 }
 
 h1 {
+    margin-left: 3%;
     font-size: 200%;
     font-family: 'Baloo Bhai', cursive;
 }
+p {
+    margin-left: 5%;
+}
+#map {
+        height: 400px;
+        width: 100%;
+       }

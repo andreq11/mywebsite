@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav class="topmenu">
-            
+
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#aboutme">ABOUT ME</a></li>
@@ -32,30 +32,34 @@
         </nav>
         <div class="info">
             <h3>Andrii Rura
-                </h3><br>
-                    <h2>Student of the SoftServe IT Academy<br> HTML5 CSS3 JavaScript Fundamentals
-                    </h2>
+            </h3><br>
+            <h2>Student of the SoftServe IT Academy<br> HTML5 CSS3 JavaScript Fundamentals
+            </h2>
         </div>
     </header>
     <section id="aboutme">
-        <div id="myfoto"><img src="image/me.jpeg" alt="me" width="150" height="250" /></div>
         <h1>About me</h1>
+        <figure><img src="image/me.jpeg" alt="me" /></figure>
         <p>Hello , this is my first project , the first experience in web development,I hope you like it<br>I'm creating my projects using HTML5 , CSS3<br>I want to take part in different projects to gain the experience.</p><br>
+        
     </section>
     <section id="hobby">
         <h1>Hobby</h1>
-        <p>My hobby is sports<br>Sport is very important in my life. And, of course, it is popular with young and old people.<br>I try to take part in different sport sections. I like to watch sport games, listen to sport news. I prefer reading interesting stories about sportsmen. At college I have got physical training lessons twice a week. We play volley-ball and football at the lessons. Sport helps me to keep good health. If you go in for sports, you are in a good mood and don’t often catch cold. <br>Believe it or not the impact from sports doesn’t reside solely on the
-            field, court, or on the ice rink, but resides in the hearts of sports fans around the world.</p>
-            <div id="img">
-        <img src="image/rotan.jpg" alt="meandrotan" width="150" height="250" />
-        <img src="image/velovelo.jpg" alt="mybike" width="150" height="250" />
-        <img src="image/meffotball.jpg" alt="mefootball" width="150" height="250" />
-        </div>
+        <figure>
+            <img src="image/rotan.jpg" alt="meandrotan"/>
+            <img src="image/velovelo.jpg" alt="mybike"/>
+            <img src="image/meffotball.jpg" alt="mefootball"/>
+        <figure>
+        <p>My hobby is sports<br>Sport is very important in my life. And, of course, it is popular with young and old people.<br>I try to take part in different sport sections. I like to watch sport games, listen to sport news. I prefer reading interesting
+            stories about sportsmen. At college I have got physical training lessons twice a week. We play volley-ball and football at the lessons. Sport helps me to keep good health. If you go in for sports, you are in a good mood and don’t often catch
+            cold. <br>Believe it or not the impact from sports doesn’t reside solely on the field, court, or on the ice rink, but resides in the hearts of sports fans around the world.</p>
+       
     </section>
     <section id="contact">
         <h1>CONTACT ME</h1>
         <p>Send Me A Message</p>
         <div class="contact-form">
+            <div id="map"></div>
             <form>
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" placeholder="name" required><br>
@@ -63,20 +67,19 @@
                 <input type="email" id="email" placeholder="example@domain.com" required><br>
                 <label>Your Message:</label><br>
                 <textarea name="massage" id="messages" required></textarea><br>
-                <input type="submit" name="send" value="Send"><br>
+                <button name="submit" type="submit" id="send">SEND</button>
             </form>
         </div>
-        <div id="map"></div>
     </section>
     <footer>
         <p>© All rights reserved 2016</p>
     </footer>
 
-<script src="js/formajax.js"></script>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
- <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkk8v2DxukQ1LRhbRPCOP6_0U7BypKqjk&callback=initMap"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAURazIt9GNGccNZ5joaOpLQnNsU3t5Jdo&callback=initMap"></script>
 </body>
 
 </html>

@@ -34,6 +34,7 @@ nav li {
     margin-left: 25px;
     font-size: 24px;
 }
+
 a {
     color: black;
     font-family: 'Baloo Bhai', cursive;
@@ -70,7 +71,7 @@ a {
 
 figure img {
     width: 150px;
-    height:250px;
+    height: 250px;
     float: right;
     border-radius: 15px;
 }
@@ -105,7 +106,6 @@ figure img {
     border-radius: 5px;
 }
 
-
 .contact-form input[type="text"] {
     height: 20px;
     width: 20%;
@@ -120,9 +120,11 @@ figure img {
     height: 20px;
     width: 20%;
 }
+
 form {
     margin-left: 3%;
 }
+
 footer {
     float: left;
     height: auto;
@@ -137,15 +139,18 @@ h1 {
     font-size: 200%;
     font-family: 'Baloo Bhai', cursive;
 }
+
 p {
     margin-left: 5%;
     padding: 0;
 }
+
 #map {
-        height: 200px;
-        width: 400px;
-        background-color: aqua;
-        float:right;
-        margin-right: 10%;
-       
-       }
+    border-style: ridge;
+    border-width: 10px;
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    float: right;
+    margin-right: 10%;
+}
